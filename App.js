@@ -11,7 +11,7 @@ import {
   View
 } from 'react-native';
 
-import { Home } from './screens';
+import { Home, Tracking, Map } from './screens';
 
 import {
   createStackNavigator,
@@ -21,6 +21,8 @@ import { createAppContainer } from 'react-navigation';
 
 const MainNavigator = createStackNavigator({
     Home: {screen: Home},
+    Tracking: {screen: Tracking},
+    Map: {screen: Map},
 });
 
 const AppContainer = createAppContainer(MainNavigator);
