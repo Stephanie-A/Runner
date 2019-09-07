@@ -4,10 +4,15 @@ import {
   Text
 } from 'react-native';
 
+import { Stats } from './../components';
+
 class Home extends React.Component {
   render() {
     return(
-      <Text>Home Screen</Text>
+      <View>
+        <Text>Home Screen</Text>
+        <Stats />
+      </View>
     );
   }
 };
